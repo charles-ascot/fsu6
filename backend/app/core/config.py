@@ -1,4 +1,4 @@
-GCP_PROJECT   = "chimera"
+GCP_PROJECT   = "chimera-v4"
 GCP_REGION    = "europe-west2"
 FSU_NAME      = "fsu6-lay-intelligence"
 FSU_VERSION   = "1.0.0"
