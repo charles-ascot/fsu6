@@ -23,7 +23,7 @@ steps:
       - '--min-instances=0'
       - '--max-instances=5'
       - '--timeout=60'
-      - '--service-account=fsu6-lay-intelligence@chimera-v4.iam.gserviceaccount.com'
+      - '--service-account=fsu6-150@chimera-v4.iam.gserviceaccount.com'
       - '--set-env-vars=GOOGLE_CLOUD_PROJECT=chimera-v4'
 
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
