@@ -1,0 +1,28 @@
+GCP_PROJECT   = "chimera"
+GCP_REGION    = "europe-west2"
+FSU_NAME      = "fsu6-lay-intelligence"
+FSU_VERSION   = "1.0.0"
+API_VERSION   = "1"
+
+# Lay Engine
+LAY_ENGINE_BASE = "https://layengine.thync.online"
+
+# GCS raw archive
+GCS_BUCKET    = "fsu6-lay-raw"
+
+# Firestore
+FIRESTORE_COLLECTION = "fsu6-intelligence"
+
+# Asana CHI project GIDs — verified from live Asana
+ASANA_PROJECTS = {
+    "CHI_3_1_DAILY_TRADING":     "1213651583061193",
+    "CHI_3_2_STRATEGY_EXEC":     "1213651583061196",
+    "CHI_3_3_STAKE_ALLOCATION":  "1213651583061199",
+    "CHI_3_4_RISK_MONITORING":   "1213651583061202",
+    "CHI_3_6_EOD_RECONCILIATION":"1213651583061208",
+    "CHI_4_1_DAILY_PERFORMANCE": "1213651583061217",
+    "CHI_4_2_STRATEGY_TRACKING": "1213651583061220",
+    "CHI_4_3_BANKROLL_ANALYTICS":"1213652548127415",
+    "CHI_4_4_DRAWDOWN":          "1213651583061223",
+    "CHI_4_6_DASHBOARD_METRICS": "1213651583061229",
+}
