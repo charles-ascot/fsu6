@@ -11,4 +11,5 @@ frontend/dist/
 
 # Misc
 .DS_Store
+**/.DS_Store
 firebase-debug.log
