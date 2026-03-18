@@ -40,7 +40,7 @@ Create these secrets in the **`chimera-v4`** project before deploying:
 
 | Secret ID | Description |
 |---|---|
-| `fsu6-lay-engine-api-key` | API key for the Lay Engine (`https://layengine.thync.online`) |
+| `fsu6-lay-engine-api-key` | API key for the Lay Engine. (`https://layengine.thync.online`) |
 | `fsu6-asana-token` | Asana personal access token for pushing summaries to CHI projects |
 | `chimera-api-key` | Chimera platform API key (also used by the frontend). |
 
