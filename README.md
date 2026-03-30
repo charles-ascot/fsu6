@@ -64,3 +64,13 @@ Set these in the Cloudflare Pages dashboard under **Settings → Environment var
 ## Cloud Build — Trigger Setup
 
 The `backend/cloudbuild.yaml` expects a trigger connected to this repo. No additional substitution variables are required beyond `$COMMIT_SHA` (provided automatically by Cloud Build).
+
+
+## Changelog
+
+### 2026-03-30 — Domain migration prep
+- Replaced hardcoded `thync.online` domain references with environment variables
+- `ALLOWED_ORIGINS` env var (Cloud Run) now controls CORS allowed origins — set as comma-separated list, e.g. `https://service.newdomain.com,https://service.newdomain.com`
+- Default falls back to `http://localhost:5173` for local development
+- `LAY_ENGINE_BASE` env var added — set to the lay-engine Cloud Run URL
+- See `domain-migration-register.md` at the root of /Users/charles/Projects for the complete list of Cloud Run env vars to set per service

@@ -1,3 +1,5 @@
+import os
+
 GCP_PROJECT   = "chimera-v4"
 GCP_REGION    = "europe-west2"
 FSU_NAME      = "fsu6-lay-intelligence"
@@ -5,7 +7,7 @@ FSU_VERSION   = "1.0.0"
 API_VERSION   = "1"
 
 # Lay Engine
-LAY_ENGINE_BASE = "https://layengine.thync.online"
+LAY_ENGINE_BASE = os.environ.get("LAY_ENGINE_BASE", "")
 
 # GCS raw archive
 GCS_BUCKET    = "fsu6-lay-raw"
